@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Algorithms Dynamic Programming Minimum Partition Difference/Algorithms Dynamic Programming Minimum Partition Difference.vcxproj" Id="7c389c44-48b6-4fbb-8f53-24e3bae23acf" />
+</Solution>
