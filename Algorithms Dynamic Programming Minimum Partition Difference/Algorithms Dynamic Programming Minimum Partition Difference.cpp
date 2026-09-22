@@ -15,9 +15,9 @@ int SubsetSum(std::vector <int> &nums) {
 	dp[0] = true;
 	for (int x : nums) {
 		for (int i = target;i >= x;i--) {
-			if (i >= x) {
+
 				dp[i] = (dp[i - x]||dp[i]);
-			}
+
 		}
 	}
 	for (int i = target;i >= 0;i--) {
